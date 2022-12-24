@@ -1,0 +1,14 @@
+.producto{
+    width: 300px;
+    height: 300px;
+    border: 1px solid green;
+    text-align: center;
+}
+.producto img{
+    height: 100px;
+}
+#contenedorCarrito{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+}
