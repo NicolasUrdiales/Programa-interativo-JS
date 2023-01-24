@@ -22,7 +22,7 @@ function renderizarProductosFiltrados() {
 
 renderizarProductos(productos)
 function renderizarProductos(arrayDeProductos) {
-   contenedor.innerHTML = "" 
+   contenedorCarrito.innerHTML = "" 
 
 for (const producto of arrayDeProductos) {
 
