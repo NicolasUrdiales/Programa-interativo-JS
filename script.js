@@ -73,3 +73,18 @@ function renderizarCarrito(arrayDeProductos) {
     }
     
 }
+let botonComprar = document.getElementById("comprar")
+botonComprar.addEventListener("click", () => {
+    localStorage.removeItem("carrito")
+    carrito = []
+    renderizarCarrito(carrito)
+    alertPersonalizado("Gracias por su compra", "success","cerrar")
+})
+function alertPersonalizado(texto,icono,boton) {
+    Swal.fire({
+        text: texto,
+        icon: icono,
+        confirmButtonText: boton
+      })
+    
+}

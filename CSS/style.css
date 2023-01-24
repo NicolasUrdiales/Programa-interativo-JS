@@ -20,12 +20,15 @@
 .a-nav:hover{
     color: goldenrod;
 }
-.contenedorBuscador{
-    margin: 0 auto;
-}
 #buscador{
     width: 300px;
-    margin: 0 auto;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid 3px burlywood;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
 }
 #contenedorProductos{
     display: flex;
@@ -41,6 +44,7 @@
     border-radius: 10px;
     text-align: center;
     margin-left: 60px;
+    font-family: 'Poppins', sans-serif;
 }
 .producto img{
     height: 100px;
@@ -53,4 +57,7 @@
     margin: 0 auto;
 
 
+}
+#comprar{
+    margin-left: 435px;
 }
